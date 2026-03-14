@@ -201,7 +201,7 @@
 
   .toggle-icon {
     position: absolute;
-    top: 50%; 
+    top: 50%;
     transform: translateY(-50%);
     font-size: 14px;
     line-height: 1;
@@ -257,7 +257,7 @@
     background: #1a1a1e;
     border-radius: 32px;
     padding: 8px;
-    box-shadow: 
+    box-shadow:
       0 4px 12px rgba(0,0,0,0.1),
       0 20px 60px rgba(0,0,0,0.15),
       inset 0 0 0 1px rgba(255,255,255,0.06);
@@ -265,7 +265,7 @@
   }
 
   .phone-frame:hover .phone-bezel {
-    box-shadow: 
+    box-shadow:
       0 8px 20px rgba(0,0,0,0.12),
       0 32px 80px rgba(0,0,0,0.2),
       inset 0 0 0 1px rgba(255,255,255,0.08);
@@ -589,8 +589,8 @@
   <div class="mode-toggle fade-in">
     <span class="mode-label active" id="label-light">Light</span>
     <div class="toggle-track" id="modeToggle" role="switch" aria-checked="false" tabindex="0">
-      <span class="toggle-icon sun">☀️</span>
-      <span class="toggle-icon moon">🌙</span>
+      <span class="toggle-icon sun">&#9728;&#65039;</span>
+      <span class="toggle-icon moon">&#127769;</span>
       <div class="toggle-thumb"></div>
     </div>
     <span class="mode-label" id="label-dark">Dark</span>
@@ -599,24 +599,24 @@
     <div class="phone-frame">
       <div class="phone-bezel">
         <div class="phone-screen">
-          <img src="images/light-dashboard.png" alt="Dashboard — Light" class="ss-light">
-          <img src="images/dark-dashboard.png" alt="Dashboard — Dark" class="ss-dark hidden">
+          <img src="images/light-dashboard.png" alt="Dashboard - Light" class="ss-light">
+          <img src="images/dark-dashboard.png" alt="Dashboard - Dark" class="ss-dark hidden">
         </div>
       </div>
     </div>
     <div class="phone-frame">
       <div class="phone-bezel">
         <div class="phone-screen">
-          <img src="images/light-activities.png" alt="Activities — Light" class="ss-light">
-          <img src="images/dark-activities.png" alt="Activities — Dark" class="ss-dark hidden">
+          <img src="images/light-activities.png" alt="Activities - Light" class="ss-light">
+          <img src="images/dark-activities.png" alt="Activities - Dark" class="ss-dark hidden">
         </div>
       </div>
     </div>
     <div class="phone-frame">
       <div class="phone-bezel">
         <div class="phone-screen">
-          <img src="images/light-settings.png" alt="Settings — Light" class="ss-light">
-          <img src="images/dark-settings.png" alt="Settings — Dark" class="ss-dark hidden">
+          <img src="images/light-settings.png" alt="Settings - Light" class="ss-light">
+          <img src="images/dark-settings.png" alt="Settings - Dark" class="ss-dark hidden">
         </div>
       </div>
     </div>
@@ -632,32 +632,32 @@
     </div>
     <div class="features-grid fade-in-stagger">
       <div class="feature-tile">
-        <div class="feature-tile-icon">🎯</div>
+        <div class="feature-tile-icon">&#127919;</div>
         <h3>Flexible Goals</h3>
         <p>Track by distance or frequency. Set weekly, monthly, or yearly targets for any of 9 supported activities.</p>
       </div>
       <div class="feature-tile">
-        <div class="feature-tile-icon">❤️</div>
+        <div class="feature-tile-icon">&#10084;&#65039;</div>
         <h3>Apple Health Sync</h3>
-        <p>Your workouts import automatically with full stats — distance, pace, duration, calories, and heart rate.</p>
+        <p>Your workouts import automatically with full stats - distance, pace, duration, calories, and heart rate.</p>
       </div>
       <div class="feature-tile">
-        <div class="feature-tile-icon">🗺️</div>
+        <div class="feature-tile-icon">&#128506;&#65039;</div>
         <h3>GPS Route Maps</h3>
         <p>See your outdoor runs, rides, and walks plotted on a map with detailed route data.</p>
       </div>
       <div class="feature-tile">
-        <div class="feature-tile-icon">📊</div>
+        <div class="feature-tile-icon">&#128202;</div>
         <h3>Progress Rings</h3>
         <p>Watch your rings fill as you move through the week, month, or year. See projected annual totals at a glance.</p>
       </div>
       <div class="feature-tile">
-        <div class="feature-tile-icon">📤</div>
+        <div class="feature-tile-icon">&#128228;</div>
         <h3>Data Export</h3>
         <p>Download all your workouts as a CSV file. Your data is always yours to keep.</p>
       </div>
       <div class="feature-tile">
-        <div class="feature-tile-icon">🔒</div>
+        <div class="feature-tile-icon">&#128274;</div>
         <h3>Privacy First</h3>
         <p>No analytics, no advertising, no third-party tracking. Your fitness data stays private.</p>
       </div>
@@ -669,7 +669,7 @@
 <section class="philosophy" id="philosophy">
   <div class="fade-in">
     <h2>Consistency beats intensity</h2>
-    <p>A short run three times a week adds up to over 250 km in a year. Cadent helps you see the bigger picture — set achievable goals, stay consistent, and let the results speak for themselves.</p>
+    <p>A short run three times a week adds up to over 250 km in a year. Cadent helps you see the bigger picture - set achievable goals, stay consistent, and let the results speak for themselves.</p>
     <p>No feature overload, no cluttered dashboards. Just a clear view of your progress toward goals that matter to you.</p>
     <div class="tagline">Start today.</div>
   </div>
@@ -678,8 +678,8 @@
 <!-- SUPPORT -->
 <section class="support" id="support">
   <h2 class="fade-in">Need help?</h2>
-  <p class="fade-in">Questions, feedback, or bug reports — we'd love to hear from you.</p>
-  <a href="mailto:support@cadentapp.net" class="email-link fade-in">support@cadentapp.net</a>
+  <p class="fade-in">Questions, feedback, or bug reports - we'd love to hear from you.</p>
+  <a id="supportEmail" href="#" class="email-link fade-in">Loading...</a>
 </section>
 
 <!-- FOOTER -->
@@ -694,35 +694,54 @@
     <div class="footer-links">
       <a href="/privacy.html">Privacy Policy</a>
       <a href="/terms.html">Terms of Service</a>
-      <a href="mailto:support@cadentapp.net">Contact</a>
+      <a id="contactEmail" href="#">Contact</a>
     </div>
   </div>
 </footer>
 
 <script>
+// ── Construct email addresses in JS to prevent Cloudflare obfuscation ──
+(function() {
+  var user = 'support';
+  var domain = 'cadentapp.net';
+  var addr = user + '@' + domain;
+  var mailto = 'mailto:' + addr;
+
+  var supportEl = document.getElementById('supportEmail');
+  if (supportEl) {
+    supportEl.href = mailto;
+    supportEl.textContent = addr;
+  }
+
+  var contactEl = document.getElementById('contactEmail');
+  if (contactEl) {
+    contactEl.href = mailto;
+  }
+})();
+
 // ── Light / Dark screenshot toggle ──
-const toggle = document.getElementById('modeToggle');
-const labelLight = document.getElementById('label-light');
-const labelDark = document.getElementById('label-dark');
-let isDark = false;
+var toggle = document.getElementById('modeToggle');
+var labelLight = document.getElementById('label-light');
+var labelDark = document.getElementById('label-dark');
+var isDark = false;
 
 function setMode(dark) {
   isDark = dark;
   toggle.classList.toggle('dark', dark);
-  toggle.setAttribute('aria-checked', dark);
+  toggle.setAttribute('aria-checked', String(dark));
   labelLight.classList.toggle('active', !dark);
   labelDark.classList.toggle('active', dark);
 
-  document.querySelectorAll('.ss-light').forEach(img => {
+  document.querySelectorAll('.ss-light').forEach(function(img) {
     img.classList.toggle('hidden', dark);
   });
-  document.querySelectorAll('.ss-dark').forEach(img => {
+  document.querySelectorAll('.ss-dark').forEach(function(img) {
     img.classList.toggle('hidden', !dark);
   });
 }
 
-toggle.addEventListener('click', () => setMode(!isDark));
-toggle.addEventListener('keydown', (e) => {
+toggle.addEventListener('click', function() { setMode(!isDark); });
+toggle.addEventListener('keydown', function(e) {
   if (e.key === 'Enter' || e.key === ' ') {
     e.preventDefault();
     setMode(!isDark);
@@ -730,4 +749,17 @@ toggle.addEventListener('keydown', (e) => {
 });
 
 // ── Fade-in on scroll ──
-const observer = new IntersectionObs
+var observer = new IntersectionObserver(function(entries) {
+  entries.forEach(function(entry) {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.15 });
+
+document.querySelectorAll('.fade-in, .fade-in-stagger').forEach(function(el) {
+  observer.observe(el);
+});
+</script>
+</body>
+</html>
